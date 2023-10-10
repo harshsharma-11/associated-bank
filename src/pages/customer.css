@@ -1,0 +1,13 @@
+table{
+    color:aliceblue;
+    width:1200px;
+    margin-top:50px;
+}
+td{
+    text-align: center;
+    height:60px;
+    font-size:20px;
+}
+th{
+    font-size:25px;
+}

@@ -1,0 +1,40 @@
+.footer-container{
+    height:150px;
+    width:100%;
+    background-color:rgb(92, 91, 90);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    color:rgb(186, 199, 199)
+
+
+}
+.social-media{
+    height:120px;
+    width:25%;
+    font-size:20px;
+}
+.social-logo{
+margin-bottom: 100px;
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+}
+.particular-logo{
+    display:flex;
+    flex-direction:column;
+}
+.copyright{
+    height:20px;
+    width:25%;
+    margin-top:100px;
+}
+.contact{
+    
+    height:120px;
+    width:20%;
+}
+.footer-container img{
+    width:60px;
+    height:40px;
+}

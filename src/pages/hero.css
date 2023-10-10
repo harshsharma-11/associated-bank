@@ -1,0 +1,53 @@
+.about-bank{
+    margin:50px 0px 50px 0px;
+    
+    height:450px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+justify-content:space-around;
+color:aliceblue;
+    
+}
+
+.about-bank 
+.left ,.right{
+    width:500px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.bank-hero{
+    font-size:70px;
+    font-weight:700;
+}
+.bank-info{
+    color:rgb(177, 177, 174)
+}
+
+.right img{
+    height:450px;
+    width:400px;
+}
+.bank-services{
+    
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin:0px 0px 240px 0px; 
+    
+}
+.service-title{
+    align-self: center;
+    font-size: 35px;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
