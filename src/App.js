@@ -9,12 +9,13 @@ import Transfer from "./pages/transfer"
 import Footer from "./bank-components/footer"
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
 import Service from "./bank-components/service"
-
+import ErrorPage from "./pages/errorpage"
 function App() {
 const router=createBrowserRouter([
   {
     path:"/",
     element:<Navbar/>,
+    errorElement:<ErrorPage/>,
     children:[
       {
         path:"",
